@@ -3,9 +3,13 @@ Agency Jekyll theme
 
 Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
+# Local debugging
+
+Follow https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
+
 # How to use
 
-###Portfolio 
+###Portfolio
 
 Portfolio projects are in '/_posts'
 
@@ -25,6 +29,3 @@ Images are in '/img/team/'
 # Demo
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
