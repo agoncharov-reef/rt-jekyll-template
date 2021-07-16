@@ -2,67 +2,118 @@ url: https://y7kim.github.io
 baseurl:
 
 # Site settings
-title: Reef Technologies
 email: hello@reef.pl
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+meta-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Trackers
 google_analytics_id:
 hotjar_id:
 
+# Content
+upper-title: Upper title
+main-title: Main title
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+block-icons:
+  title: Icons
+  header: Icons header
+  items:
+    - name: Icons item 1
+      icon: fa-laptop
+      text: Icons item 1 description text
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    - name: Icons item 2
+      icon: fa-laptop
+      text: Icons item 2 description text
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - name: Icons item 3
+      icon: fa-laptop
+      text: Icons item 3 description text
+
+block-posts:
+  title: Posts
+  header: Posts header
+
+block-timeline:
+  title: Timeline
+  header: Timeline header
+  items:
+    - header: Timeline item 1
+      subheader: Timeline item 1 subheader
+      text: Timeline item 1 text description
+      image: img/about/1.jpg
+
+    - header: Timeline item 2
+      subheader: Timeline item 2 subheader
+      text: Timeline item 2 text description
+      image: img/about/2.jpg
+  end-text: Timeline<br>end<br>text
+
+block-people:
+  title: People
+  header: People header
+  footer: People footer
+  items:
+    - name: Person 1
+      image: img/team/1.jpg
+      position: Lead Designer
+      social:
+        - title: twitter
+          url: #
+        - title: facebook
+          url: #
+        - title: stack-overflow
+          url: #
+
+    - name: Person 2
+      image: img/team/2.jpg
+      position: Lead Marketer
+      social:
+        - title: twitter
+          url: #
+        - title: facebook
+          url: #
+        - title: linkedin
+          url: #
+
+    - name: Person 3
+      image: img/team/3.jpg
+      position: Lead Developer
+      social:
+        - title: twitter
+          url: #
+        - title: facebook
+          url: #
+        - title: google-plus
+          url: #
+
+block-logos:
+  items:
+    - image: img/logos/envato.jpg
+      url: \#
+    - image: img/logos/envato.jpg
+      url: \#
+    - image: img/logos/envato.jpg
+      url: \#
+    - image: img/logos/envato.jpg
+      url: \#
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url:
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url:
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url:
   - title: github
-    url: http://github.com/jekyll
+    url:
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# # Postal address (add as many lines as necessary)
+# address:
+#   - line: 3481 Melrose Place
+#   - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
