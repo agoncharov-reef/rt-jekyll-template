@@ -1,3 +1,8 @@
+How to run this locally
+=======================
+
+[Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
+
 Agency Jekyll theme
 ====================
 
