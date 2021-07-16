@@ -3,6 +3,10 @@ How to run this locally
 
 [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
 
+Tip: jekyll doesn't auto-reload on `_config.yml` changes.
+
+[Jekyll template cheatsheet](https://gist.github.com/JJediny/a466eed62cee30ad45e2)
+
 Agency Jekyll theme
 ====================
 
