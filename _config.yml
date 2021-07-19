@@ -10,8 +10,8 @@ google_analytics_id:
 hotjar_id:
 
 # Content
-upper-title: Upper title
 main-title: Main title
+secondary-title: Secondary title
 
 block-icons:
   title: Icons
@@ -108,7 +108,7 @@ social:
   - title: bitbucket
     url:
   - title: github
-    url:
+    url: https://github.com/reef-technologies
 
 # # Postal address (add as many lines as necessary)
 # address:
