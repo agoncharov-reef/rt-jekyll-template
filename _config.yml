@@ -10,8 +10,12 @@ google_analytics_id:
 hotjar_id:
 
 # Content
-main-title: Main title
-secondary-title: Secondary title
+
+block-header:
+  logo: img/logos/reef_logo.png
+  main-title: Main title
+  secondary-title: Secondary title
+  action-button-text: Action button text
 
 block-icons:
   title: Icons
@@ -45,7 +49,7 @@ block-timeline:
     - header: Timeline item 2
       subheader: Timeline item 2 subheader
       text: Timeline item 2 text description
-      image: img/about/2.jpg
+      image: img/about/1.jpg
   end-text: Timeline<br>end<br>text
 
 block-people:
@@ -65,7 +69,7 @@ block-people:
           url: #
 
     - name: Person 2
-      image: img/team/2.jpg
+      image: img/team/1.jpg
       position: Lead Marketer
       social:
         - title: twitter
@@ -76,7 +80,7 @@ block-people:
           url: #
 
     - name: Person 3
-      image: img/team/3.jpg
+      image: img/team/1.jpg
       position: Lead Developer
       social:
         - title: twitter

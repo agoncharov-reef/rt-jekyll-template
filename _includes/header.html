@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#page-top">
-                    <img src="img/logos/reef_logo.png" style="height: 50px;" alt="">
+                    <img src="{{ site.block-header.logo }}" style="height: 50px;" alt="">
                 </a>
             </div>
 
@@ -46,9 +46,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">{{ site.main-title }}</div>
-                <div class="intro-lead-in">{{ site.secondary-title }}</div>
-                <a href="#icons" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-heading">{{ site.block-header.main-title }}</div>
+                <div class="intro-lead-in">{{ site.block-header.secondary-title }}</div>
+                <a href="#icons" class="page-scroll btn btn-xl">{{ site.block-header.action-button-text }}</a>
             </div>
         </div>
     </header>
