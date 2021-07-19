@@ -1,7 +1,11 @@
 How to run this locally
 =======================
 
-[Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
+[Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/):
+* `cd <jekyll-project-folder>`
+* `bundle config set --local path 'vendor/bundle'`
+* `bundle install`
+* `bundle exec jekyll serve`
 
 Tip: jekyll doesn't auto-reload on `_config.yml` changes.
 
