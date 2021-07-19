@@ -110,6 +110,11 @@ social:
   - title: github
     url: https://github.com/reef-technologies
 
+block-contact:
+  header: Contact form header
+  subheader: Contact form subheader
+  post-url: https://getform.io/f/cfca5e38-7bdc-4cff-ac7d-b0a059c4a673
+
 # # Postal address (add as many lines as necessary)
 # address:
 #   - line: 3481 Melrose Place
