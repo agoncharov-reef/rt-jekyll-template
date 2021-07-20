@@ -101,6 +101,11 @@ block-logos:
     - image: img/logos/envato.jpg
       url: \#
 
+block-contact:
+  header: Contact form header
+  subheader: Contact form subheader
+  post-url: https://getform.io/f/cfca5e38-7bdc-4cff-ac7d-b0a059c4a673
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -113,11 +118,6 @@ social:
     url:
   - title: github
     url: https://github.com/reef-technologies
-
-block-contact:
-  header: Contact form header
-  subheader: Contact form subheader
-  post-url: https://getform.io/f/cfca5e38-7bdc-4cff-ac7d-b0a059c4a673
 
 # # Postal address (add as many lines as necessary)
 # address:

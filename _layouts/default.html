@@ -2,13 +2,13 @@
 <html>
   {% include head.html %}
   <body id="page-top" class="index">
-    {% include header.html %}
-    {% include icons.html %}
-    {% include posts.html %}
-    {% include timeline.html %}
-    {% include people.html %}
-    {% include logos.html %}
-    {% include contact.html %}
+
+    {% for var in site %}
+      {% if var contains "block-" %}
+        {% include {{ var | replace: "block-", "" | append: ".html" }} %}
+      {% endif %}
+    {% endfor %}
+
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
