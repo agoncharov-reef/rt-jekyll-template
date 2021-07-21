@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#page-top">
-                    <img src="{{ site.block-header.logo }}" style="height: 50px;" alt="">
+                    <img src="{{ include.context.logo }}" style="height: 50px;" alt="">
                 </a>
             </div>
 
@@ -20,21 +20,13 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#icons">{{ site.block-icons.title }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#posts">{{ site.block-posts.title }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#timeline">{{ site.block-timeline.title }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#people">{{ site.block-people.title }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    {% for var in site %}
+                        {% if var contains "block-" and site[var].menu-item %}
+                            <li>
+                                <a class="page-scroll" href="#{{ var }}">{{ site.[var].menu-item }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -46,9 +38,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">{{ site.block-header.main-title }}</div>
-                <div class="intro-lead-in">{{ site.block-header.secondary-title }}</div>
-                <a href="#icons" class="page-scroll btn btn-xl">{{ site.block-header.action-button-text }}</a>
+                <div class="intro-heading">{{ include.context.main-title }}</div>
+                <div class="intro-lead-in">{{ include.context.secondary-title }}</div>
+                <a href="#icons" class="page-scroll btn btn-xl">{{ include.context.action-button-text }}</a>
             </div>
         </div>
     </header>

@@ -5,7 +5,9 @@
 
     {% for var in site %}
       {% if var contains "block-" %}
-        {% include {{ var | replace: "block-", "" | append: ".html" }} %}
+        {% assign template = site[var].template %}
+        {% assign context = site[var].context %}
+        {% include {{ template }} context=context block=var %}
       {% endif %}
     {% endfor %}
 

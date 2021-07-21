@@ -12,99 +12,138 @@ hotjar_id:
 # Content
 
 block-header:
-  logo: img/logos/reef_logo.png
-  main-title: Main title
-  secondary-title: Secondary title
-  action-button-text: Action button text
+  template: header.html
+  context:
+    logo: img/logos/reef_logo.png
+    main-title: Main title
+    secondary-title: Secondary title
+    action-button-text: Action button text
 
 block-icons:
-  title: Icons
-  header: Icons header
-  items:
-    - name: Icons item 1
-      icon: fa-laptop
-      text: Icons item 1 description text
+  template: icons.html
+  menu-item: Icons
+  context:
+    title: Icons
+    header: Icons header
+    items:
+      - name: Icons item 1
+        icon: fa-laptop
+        text: Icons item 1 description text
 
-    - name: Icons item 2
-      icon: fa-laptop
-      text: Icons item 2 description text
+      - name: Icons item 2
+        icon: fa-laptop
+        text: Icons item 2 description text
 
-    - name: Icons item 3
-      icon: fa-laptop
-      text: Icons item 3 description text
+      - name: Icons item 3
+        icon: fa-laptop
+        text: Icons item 3 description text
+
+block-icons-2:
+  template: icons.html
+  menu-item: Icons 2
+  context:
+    title: Icons 2
+    header: Icons header
+    items:
+      - name: Icons item 1
+        icon: fa-laptop
+        text: Icons item 1 description text
+
+      - name: Icons item 2
+        icon: fa-laptop
+        text: Icons item 2 description text
+
+      - name: Icons item 3
+        icon: fa-laptop
+        text: Icons item 3 description text
 
 block-posts:
-  title: Posts
-  header: Posts header
+  template: posts.html
+  menu-item: Posts
+  context:
+    title: Posts
+    header: Posts header
 
 block-timeline:
-  title: Timeline
-  header: Timeline header
-  items:
-    - header: Timeline item 1
-      subheader: Timeline item 1 subheader
-      text: Timeline item 1 text description
-      image: img/about/1.jpg
+  template: timeline.html
+  menu-item: Timeline
+  context:
+    title: Timeline
+    header: Timeline header
+    items:
+      - header: Timeline item 1
+        subheader: Timeline item 1 subheader
+        text: Timeline item 1 text description
+        image: img/about/1.jpg
 
-    - header: Timeline item 2
-      subheader: Timeline item 2 subheader
-      text: Timeline item 2 text description
-      image: img/about/1.jpg
-  end-text: Timeline<br>end<br>text
+      - header: Timeline item 2
+        subheader: Timeline item 2 subheader
+        text: Timeline item 2 text description
+        image: img/about/1.jpg
+    end-text: Timeline<br>end<br>text
 
 block-people:
-  title: People
-  header: People header
-  footer: People footer
-  items:
-    - name: Person 1
-      image: img/team/1.jpg
-      position: Lead Designer
-      social:
-        - title: twitter
-          url: #
-        - title: facebook
-          url: #
-        - title: stack-overflow
-          url: #
+  template: people.html
+  menu-item: People
+  context:
+    title: People
+    header: People header
+    footer: People footer
+    items:
+      - name: Person 1
+        image: img/team/1.jpg
+        position: Lead Designer
+        social:
+          - title: twitter
+            url: #
+          - title: facebook
+            url: #
+          - title: stack-overflow
+            url: #
 
-    - name: Person 2
-      image: img/team/1.jpg
-      position: Lead Marketer
-      social:
-        - title: twitter
-          url: #
-        - title: facebook
-          url: #
-        - title: linkedin
-          url: #
+      - name: Person 2
+        image: img/team/1.jpg
+        position: Lead Marketer
+        social:
+          - title: twitter
+            url: #
+          - title: facebook
+            url: #
+          - title: linkedin
+            url: #
 
-    - name: Person 3
-      image: img/team/1.jpg
-      position: Lead Developer
-      social:
-        - title: twitter
-          url: #
-        - title: facebook
-          url: #
-        - title: google-plus
-          url: #
+      - name: Person 3
+        image: img/team/1.jpg
+        position: Lead Developer
+        social:
+          - title: twitter
+            url: #
+          - title: facebook
+            url: #
+          - title: google-plus
+            url: #
 
 block-logos:
-  items:
-    - image: img/logos/envato.jpg
-      url: \#
-    - image: img/logos/envato.jpg
-      url: \#
-    - image: img/logos/envato.jpg
-      url: \#
-    - image: img/logos/envato.jpg
-      url: \#
+  template: logos.html
+  menu-item: Logos
+  context:
+    items:
+      - image: img/logos/envato.jpg
+        url: \#
+      - image: img/logos/envato.jpg
+        url: \#
+      - image: img/logos/envato.jpg
+        url: \#
+      - image: img/logos/envato.jpg
+        url: \#
 
 block-contact:
-  header: Contact form header
-  subheader: Contact form subheader
-  post-url: https://getform.io/f/cfca5e38-7bdc-4cff-ac7d-b0a059c4a673
+  template: contact.html
+  menu-item: Contact
+  context:
+    header: Contact form header
+    subheader: Contact form subheader
+    post-url: https://getform.io/f/cfca5e38-7bdc-4cff-ac7d-b0a059c4a673
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
